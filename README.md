@@ -1,4 +1,4 @@
-# lexiel-ai
+# Lexiel
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lexiel-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lexiel.ai/
+Lexiel provides an AI‑powered legal assistant platform for law firms and professionals. It offers automated document drafting, case management, and compliance tools, leveraging verified jurisprudence from Spanish courts. Users can access a free trial, subscription plans, and a knowledge academy. The service targets citizens, freelancers, lawyers, and enterprises across Spain and Latin America.
+
+**Areas:** LegalTech · AI · Automation · Spain · LatinAmerica
+
+## Lexiel on APIs.io
+
+Everything profiled for Lexiel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lexiel-ai/](https://apis.io/providers/lexiel-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Lexiel Agenda API](https://apis.io/apis/lexiel-ai/lexiel-ai-agenda-api/) — Calendario, plazos y eventos
+- [Lexiel Analítica API](https://apis.io/apis/lexiel-ai/lexiel-ai-anal-tica-api/) — Métricas de rendimiento y benchmarks del mercado
+- [Lexiel Chat IA API](https://apis.io/apis/lexiel-ai/lexiel-ai-chat-ia-api/) — Conversaciones con la IA jurídica de Lexiel
+- [Lexiel Clientes API](https://apis.io/apis/lexiel-ai/lexiel-ai-clientes-api/) — Gestión de clientes y contactos
+- [Lexiel Documentos API](https://apis.io/apis/lexiel-ai/lexiel-ai-documentos-api/) — Subida, procesamiento y búsqueda de documentos
+- [Lexiel Expedientes API](https://apis.io/apis/lexiel-ai/lexiel-ai-expedientes-api/) — Gestión de expedientes judiciales y extrajudiciales
+- [Lexiel Facturación API](https://apis.io/apis/lexiel-ai/lexiel-ai-facturaci-n-api/) — Facturas, presupuestos y registro de tiempos
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lexiel Agentic Access](https://apis.io/agentic-access/lexiel-ai/lexiel-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Case](https://apis.io/schemas/lexiel-ai/lexiel-ai-case/)
+- [CaseCreate](https://apis.io/schemas/lexiel-ai/lexiel-ai-case-create/)
+- [CaseUpdate](https://apis.io/schemas/lexiel-ai/lexiel-ai-case-update/)
+- [Document](https://apis.io/schemas/lexiel-ai/lexiel-ai-document/)
+- [Invoice](https://apis.io/schemas/lexiel-ai/lexiel-ai-invoice/)
+- [InvoiceCreate](https://apis.io/schemas/lexiel-ai/lexiel-ai-invoice-create/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lexiel Ai Context](https://apis.io/jsonld/lexiel-ai/lexiel-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lexiel API Rules](https://apis.io/rules/lexiel-ai/lexiel-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lexiel Authentication](https://apis.io/security/lexiel-ai/lexiel-ai-authentication/)
+- [Lexiel Domain Security](https://apis.io/security/lexiel-ai/lexiel-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lexiel Plans Pricing](https://apis.io/plans/lexiel-ai/lexiel-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lexiel.ai/)
+- [Documentation](https://lexiel.ai/es)
+- [Pricing](https://lexiel.ai/es/precios/particular)
+- [Changelog](https://lexiel.ai/es/changelog)
+- [Blog](https://lexiel.ai/es/blog)
+- [Security](https://lexiel.ai/en/security)
+- [Terms of service](https://lexiel.ai/es/terminos)
+- [Privacy policy](https://lexiel.ai/es/privacidad)
+
+## API Evangelist rating
+
+**Kin Score 57.5** — strong · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 48.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lexiel-ai/](https://apis.io/providers/lexiel-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lexiel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lexiel-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
